@@ -6,7 +6,7 @@ function Alert({ onClick }: Props) {
   return (
     <>
       <div
-        className="alert alert-warning alert-dismissible fade show"
+        className="alert alert-warning alert-dismissible fade show m-0"
         role="alert"
       >
         This website is currently under construction!
