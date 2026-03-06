@@ -1,7 +1,7 @@
 import { useState } from "react";
 import HomePage from "./components/home/HomePage";
 import PgCw from "./components/pgcw/PgCw";
-import Puzzles from "./components/Puzzles";
+import Puzzles from "./components/puzzles/Puzzles";
 import Contact from "./components/contact/Contact";
 import { Toaster } from "./components/ui/toaster";
 
