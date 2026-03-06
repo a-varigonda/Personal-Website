@@ -1,12 +1,12 @@
 import { Card, Flex, Heading, Image, Box } from "@chakra-ui/react";
 import { Tooltip } from "src/components/ui/tooltip";
-import bs from "src/assets/icons/bs.png";
-import cs from "src/assets/icons/cs.png";
-import ht from "src/assets/icons/ht.png";
-import js from "src/assets/icons/js.png";
-import py from "src/assets/icons/py.png";
-import rt from "src/assets/icons/rt.png";
-import ts from "src/assets/icons/ts.png";
+import bs from "src/assets/icons/bs.webp";
+import cs from "src/assets/icons/cs.webp";
+import ht from "src/assets/icons/ht.webp";
+import js from "src/assets/icons/js.webp";
+import py from "src/assets/icons/py.webp";
+import rt from "src/assets/icons/rt.webp";
+import ts from "src/assets/icons/ts.webp";
 
 interface Props {
   title: string;

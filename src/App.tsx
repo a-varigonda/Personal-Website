@@ -7,7 +7,7 @@ import { Toaster } from "./components/ui/toaster";
 
 function App() {
   const pages = ["Home", "Projects & Coursework", "Puzzles", "Contact"];
-  const [curPage, setCurPage] = useState("Contact");
+  const [curPage, setCurPage] = useState("Home");
   return (
     <>
       {curPage == "Home" && (
