@@ -1,3 +1,4 @@
+import { Center } from "@chakra-ui/react";
 import ColorMode from "./generic/ColorMode";
 import { MouseFollower } from "./generic/Mouse";
 import SideBar from "./generic/SideBar";
@@ -11,7 +12,9 @@ interface Props {
 function Puzzles({ pages, currentPage, onClick }: Props) {
   return (
     <>
-      <p>Puzzles</p>
+      <Center mt={10} fontSize="6xl">
+        Puzzles
+      </Center>
       <ColorMode />
       <SideBar currentPage={currentPage} onClick={onClick} pages={pages} />
       <MouseFollower />

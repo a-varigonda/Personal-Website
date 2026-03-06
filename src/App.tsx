@@ -3,6 +3,7 @@ import HomePage from "./components/home/HomePage";
 import PgCw from "./components/pgcw/PgCw";
 import Puzzles from "./components/Puzzles";
 import Contact from "./components/contact/Contact";
+import { Toaster } from "./components/ui/toaster";
 
 function App() {
   const pages = ["Home", "Projects & Coursework", "Puzzles", "Contact"];
@@ -37,6 +38,7 @@ function App() {
           pages={pages}
         />
       )}
+      <Toaster />
     </>
   );
 }

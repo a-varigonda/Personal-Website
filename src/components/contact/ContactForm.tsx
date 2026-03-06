@@ -4,6 +4,7 @@ import { zodResolver } from "@hookform/resolvers/zod";
 import { Box, Button, Field, Input, Stack, Textarea } from "@chakra-ui/react";
 import { useColorModeValue } from "../ui/color-mode";
 import emailjs from "@emailjs/browser";
+import { toaster } from "../ui/toaster";
 
 const schema = z.object({
   email: z
@@ -38,11 +39,21 @@ function ContactForm() {
         import.meta.env.VITE_EMAILJS_PUBLIC_KEY,
       );
 
-      alert("Message sent successfully!");
+      toaster.create({
+        title: "Message Sent!",
+        description: "I'll read this soon.",
+        type: "success",
+        duration: 5000,
+      });
+
       reset();
     } catch (error) {
       console.error("FAILED...", error);
-      alert("Something went wrong. Please try again.");
+      toaster.create({
+        title: "Error",
+        description: "Failed to send message. Please try again.",
+        type: "error",
+      });
     }
   };
 
@@ -55,7 +66,7 @@ function ContactForm() {
 
   return (
     <Box
-      maxW="50%"
+      maxW="500px"
       mx="auto"
       w="95%"
       p={8}
