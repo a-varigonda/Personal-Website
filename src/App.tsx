@@ -1,36 +1,42 @@
-import SideBar from "./components/SideBar";
-import { MouseFollower } from "./components/Mouse";
-import Titles from "./components/Titles";
-import { Center } from "@chakra-ui/react";
-import ColorMode from "./components/colorMode";
-import Tags from "./components/Tags";
+import { useState } from "react";
+import HomePage from "./components/HomePage";
+import PgCw from "./components/PgCw";
+import Puzzles from "./components/Puzzles";
+import Contact from "./components/Contact";
 
 function App() {
-  const interests = [
-    "Math",
-    "Jigsaw Puzzles",
-    "Reading",
-    "Coding",
-    "Sleeping",
-    "Potatoes",
-  ];
-
+  const pages = ["Home", "Projects & Coursework", "Puzzles", "Contact"];
+  const [curPage, setCurPage] = useState("Home");
   return (
     <>
-      <Center mt={10} fontSize="3xl">
-        Hi 👋, I'm
-      </Center>
-      <Titles text="ANKITA" />
-      <Titles text="VARIGONDA" />
-      <Center mt={5} fontSize="3xl">
-        and I like:
-      </Center>
-      <Center mt={5} fontSize="xl">
-        <Tags tagList={interests} />
-      </Center>
-      <ColorMode />
-      <SideBar />
-      <MouseFollower />
+      {curPage == "Home" && (
+        <HomePage
+          onClick={(text) => setCurPage(text)}
+          currentPage={curPage}
+          pages={pages}
+        />
+      )}
+      {curPage == "Projects & Coursework" && (
+        <PgCw
+          onClick={(text) => setCurPage(text)}
+          currentPage={curPage}
+          pages={pages}
+        />
+      )}
+      {curPage == "Puzzles" && (
+        <Puzzles
+          onClick={(text) => setCurPage(text)}
+          currentPage={curPage}
+          pages={pages}
+        />
+      )}
+      {curPage == "Contact" && (
+        <Contact
+          onClick={(text) => setCurPage(text)}
+          currentPage={curPage}
+          pages={pages}
+        />
+      )}
     </>
   );
 }

@@ -4,7 +4,13 @@ import { HiMenu } from "react-icons/hi";
 import SideBarItem from "./SideBarItem";
 import { useColorModeValue } from "./ui/color-mode";
 
-function SideBar() {
+interface Props {
+  pages: string[];
+  currentPage: string;
+  onClick: (page: string) => void;
+}
+
+function SideBar({ pages, currentPage, onClick }: Props) {
   const [navE, setNavE] = useState(true);
 
   const glassBg = useColorModeValue("whiteAlpha.600", "blackAlpha.300");
@@ -32,9 +38,14 @@ function SideBar() {
           <>
             <Box mt={20} w={navE ? "350px" : "0px"}></Box>
             <Flex flexDir="column">
-              <SideBarItem text="Dashboard1" active={true} />
-              <SideBarItem text="Dashboard2" active={false} />
-              <SideBarItem text="Dashboard3" active={false} />
+              {pages.map((item) => (
+                <SideBarItem
+                  key={item}
+                  text={item}
+                  active={item == currentPage}
+                  onClick={onClick}
+                />
+              ))}
             </Flex>
           </>
         )}
