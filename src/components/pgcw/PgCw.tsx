@@ -6,6 +6,7 @@ import Item from "./Item";
 import projects from "src/assets/projects.json";
 import courses from "src/assets/courses.json";
 import Footer from "../generic/Footer";
+import { ScrollToTop } from "../generic/ScrollTop";
 
 interface Props {
   pages: string[];
@@ -53,6 +54,7 @@ function PgCW({ pages, currentPage, onClick }: Props) {
         <Footer />
       </Flex>
 
+      <ScrollToTop />
       <ColorMode />
       <SideBar currentPage={currentPage} onClick={onClick} pages={pages} />
       <MouseFollower />

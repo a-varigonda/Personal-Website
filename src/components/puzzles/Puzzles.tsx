@@ -3,6 +3,7 @@ import ColorMode from "../generic/ColorMode";
 import { MouseFollower } from "../generic/Mouse";
 import SideBar from "../generic/SideBar";
 import Footer from "../generic/Footer";
+import { ScrollToTop } from "../generic/ScrollTop";
 import { gallery } from "./Gallery";
 import Gcard from "./Gcard";
 
@@ -36,6 +37,7 @@ function Puzzles({ pages, currentPage, onClick }: Props) {
         <Footer />
       </Flex>
 
+      <ScrollToTop />
       <ColorMode />
       <SideBar currentPage={currentPage} onClick={onClick} pages={pages} />
       <MouseFollower />
