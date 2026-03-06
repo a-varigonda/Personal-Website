@@ -150,4 +150,19 @@ export const gallery: Gallery[] = [
     pieces: 100,
     image: "src/assets/gallery/29.webp",
   },
+  {
+    id: 30,
+    pieces: 500,
+    image: "src/assets/gallery/30.webp",
+  },
+  {
+    id: 31,
+    pieces: 1000,
+    image: "src/assets/gallery/31.webp",
+  },
+  {
+    id: 32,
+    pieces: 750,
+    image: "src/assets/gallery/32.webp",
+  },
 ];
