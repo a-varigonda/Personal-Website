@@ -11,7 +11,7 @@ function CourseItem({ title, body }: Props) {
       <Flex justify="center">
         <Card.Root size="sm" width="70%">
           <Card.Header>
-            <Heading size="sm"> {title}</Heading>
+            <Heading size="md"> {title}</Heading>
           </Card.Header>
           <Card.Body color="fg.muted">{body}</Card.Body>
         </Card.Root>

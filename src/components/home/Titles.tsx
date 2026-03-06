@@ -1,5 +1,5 @@
 import { Heading } from "@chakra-ui/react";
-import spaceImage from "src/spacebg.jpg";
+import spaceImage from "src/assets/spacebg.jpg";
 
 interface Props {
   text: string;

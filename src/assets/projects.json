@@ -1,0 +1,52 @@
+[
+  {
+    "Project": "Andrew Inbox",
+    "Technologies": "React TypeScript HTML CSS",
+    "Description": "Browser extension that aggregates emails and posts from Canvas, Ed, Piazza, and other platforms into an automatic daily/weekly task summary."
+  },
+  {
+    "Project": "Personal Website",
+    "Technologies": "React TypeScript HTML CSS",
+    "Description": "Personal website showcasing projects, coursework, and puzzles!"
+  },
+  {
+    "Project": "Gold BARZ",
+    "Technologies": "React TypeScript HTML CSS",
+    "Description": "Financial planning tool that analyzes how purchases affect the ability to afford future goals using the OpenRouter API."
+  },
+  {
+    "Project": "Coffee Shop",
+    "Technologies": "React Bootstrap TypeScript HTML CSS",
+    "Description": "Web app that displays nearby study spots with estimated occupancy and noise levels using the MapKit API."
+  },
+  {
+    "Project": "Reminder App",
+    "Technologies": "React Bootstrap TypeScript HTML CSS",
+    "Description": "AI-powered reminder app that assigns rewards based on task difficulty to encourage consistent productivity."
+  },
+  {
+    "Project": "GamePage",
+    "Technologies": "React TypeScript HTML CSS",
+    "Description": "Game discovery web app that displays game data using the RAWG API."
+  },
+  {
+    "Project": "Retromail",
+    "Technologies": "HTML CSS JavaScript",
+    "Description": "Web app that lets users send stylized digital envelopes and messages to friends."
+  },
+  {
+    "Project": "SHS Club Website",
+    "Technologies": "HTML CSS JavaScript",
+    "Description": "Informational website displaying high school clubs and meeting schedules."
+  },
+  {
+    "Project": "Zombie Apocalypse",
+    "Technologies": "Python",
+    "Description": "Research project exploring how priming affects player decisions through a Python-based zombie serious game."
+  },
+  {
+    "Project": "Language Tutor",
+    "Technologies": "Python",
+    "Description": "Contributed to a language-learning chatbot using GPT-3 and prompt engineering to facilitate conversational practice."
+  }
+]

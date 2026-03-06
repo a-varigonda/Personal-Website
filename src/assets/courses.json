@@ -1,0 +1,92 @@
+[
+  {
+    "Course": "Intro to Computational Biology",
+    "Number": "02-250",
+    "Semester": "Spring 2026",
+    "Current": "TRUE"
+  },
+  {
+    "Course": "Principles of Imperative Computation",
+    "Number": "15-122",
+    "Semester": "Spring 2026",
+    "Current": "TRUE"
+  },
+  {
+    "Course": "Discrete Math",
+    "Number": "21-228",
+    "Semester": "Spring 2026",
+    "Current": "TRUE"
+  },
+  {
+    "Course": "Multidimensional Calculus",
+    "Number": "21-268",
+    "Semester": "Spring 2026",
+    "Current": "TRUE"
+  },
+  {
+    "Course": "Cultures of Latin America",
+    "Number": "82-343",
+    "Semester": "Spring 2026",
+    "Current": "TRUE"
+  },
+  {
+    "Course": "Modern Biology",
+    "Number": "03-121",
+    "Semester": "Fall 2025",
+    "Current": "FALSE"
+  },
+  {
+    "Course": "Mathematical Concepts and Proofs",
+    "Number": "21-128",
+    "Semester": "Fall 2025",
+    "Current": "FALSE"
+  },
+  {
+    "Course": "Matrices and Linear Transformations",
+    "Number": "21-241",
+    "Semester": "Fall 2025",
+    "Current": "FALSE"
+  },
+  {
+    "Course": "Putnam Seminar",
+    "Number": "21-295",
+    "Semester": "Fall 2025",
+    "Current": "FALSE"
+  },
+  {
+    "Course": "Eureka",
+    "Number": "38-101",
+    "Semester": "Fall 2025",
+    "Current": "FALSE"
+  },
+  {
+    "Course": "Engage in Service",
+    "Number": "38-110",
+    "Semester": "Fall 2025",
+    "Current": "FALSE"
+  },
+  {
+    "Course": "Writing About Data",
+    "Number": "76-107",
+    "Semester": "Fall 2025",
+    "Current": "FALSE"
+  },
+  {
+    "Course": "Writing About Public Problems",
+    "Number": "76-108",
+    "Semester": "Fall 2025",
+    "Current": "FALSE"
+  },
+  {
+    "Course": "Stuco: Fun with Robots",
+    "Number": "98-012",
+    "Semester": "Fall 2025",
+    "Current": "FALSE"
+  },
+  {
+    "Course": "Core@CMU",
+    "Number": "99-101",
+    "Semester": "Fall 2025",
+    "Current": "FALSE"
+  }
+]
