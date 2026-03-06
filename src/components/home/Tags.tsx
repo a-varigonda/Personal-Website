@@ -1,5 +1,5 @@
 import { Box, Flex } from "@chakra-ui/react";
-import { useColorModeValue } from "./ui/color-mode";
+import { useColorModeValue } from "../ui/color-mode";
 
 interface Props {
   tagList: string[];

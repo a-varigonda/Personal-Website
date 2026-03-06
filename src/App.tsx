@@ -6,7 +6,7 @@ import Contact from "./components/Contact";
 
 function App() {
   const pages = ["Home", "Projects & Coursework", "Puzzles", "Contact"];
-  const [curPage, setCurPage] = useState("Home");
+  const [curPage, setCurPage] = useState("Projects & Coursework");
   return (
     <>
       {curPage == "Home" && (

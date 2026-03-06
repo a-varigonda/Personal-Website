@@ -1,9 +1,9 @@
 import { Center } from "@chakra-ui/react";
-import Titles from "./Titles";
-import Tags from "./Tags";
-import ColorMode from "./colorMode";
-import SideBar from "./SideBar";
-import { MouseFollower } from "./Mouse";
+import Titles from "./home/Titles";
+import Tags from "./home/Tags";
+import ColorMode from "./generic/ColorMode";
+import SideBar from "./generic/SideBar";
+import { MouseFollower } from "./generic/Mouse";
 
 interface Props {
   pages: string[];

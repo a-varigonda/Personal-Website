@@ -1,16 +1,20 @@
-import ColorMode from "./colorMode";
-import { MouseFollower } from "./Mouse";
-import SideBar from "./SideBar";
+import { Center } from "@chakra-ui/react";
+import ColorMode from "./generic/ColorMode";
+import { MouseFollower } from "./generic/Mouse";
+import SideBar from "./generic/SideBar";
 
 interface Props {
   pages: string[];
   currentPage: string;
   onClick: (page: string) => void;
 }
+
 function GenericPage({ pages, currentPage, onClick }: Props) {
   return (
     <>
-      <p>GenericPage</p>
+      <Center mt={10} fontSize="6xl">
+        Projects & Coursework
+      </Center>
       <ColorMode />
       <SideBar currentPage={currentPage} onClick={onClick} pages={pages} />
       <MouseFollower />

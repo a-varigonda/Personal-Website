@@ -2,7 +2,7 @@ import { Box, Flex, IconButton } from "@chakra-ui/react";
 import { useState } from "react";
 import { HiMenu } from "react-icons/hi";
 import SideBarItem from "./SideBarItem";
-import { useColorModeValue } from "./ui/color-mode";
+import { useColorModeValue } from "../ui/color-mode";
 
 interface Props {
   pages: string[];
