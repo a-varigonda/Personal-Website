@@ -1,12 +1,12 @@
 import { useState } from "react";
-import HomePage from "./components/HomePage";
-import PgCw from "./components/PgCw";
+import HomePage from "./components/home/HomePage";
+import PgCw from "./components/pgcw/PgCw";
 import Puzzles from "./components/Puzzles";
-import Contact from "./components/Contact";
+import Contact from "./components/contact/Contact";
 
 function App() {
   const pages = ["Home", "Projects & Coursework", "Puzzles", "Contact"];
-  const [curPage, setCurPage] = useState("Projects & Coursework");
+  const [curPage, setCurPage] = useState("Contact");
   return (
     <>
       {curPage == "Home" && (
