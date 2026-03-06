@@ -18,7 +18,7 @@ function PgCW({ pages, currentPage, onClick }: Props) {
     <>
       <Flex direction="column" minH="100vh">
         <Box flex="1">
-          <Center mt={10} fontSize="6xl">
+          <Center mt={10} fontSize="6xl" textAlign="center">
             Projects & Coursework
           </Center>
 

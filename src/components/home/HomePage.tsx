@@ -38,7 +38,7 @@ function HomePage({ pages, currentPage, onClick }: Props) {
           <Center mt={5} fontSize="xl">
             <Tags tagList={interests} />
           </Center>
-          <Center mt={10}>
+          <Center mt={10} textAlign="center" px={4}>
             I'm a freshman at Carnegie Mellon University studying Mathematical
             Sciences!
           </Center>

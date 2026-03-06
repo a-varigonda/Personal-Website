@@ -9,7 +9,7 @@ function Titles({ text }: Props) {
   return (
     <>
       <Heading
-        fontSize="9xl"
+        fontSize={{ base: "6xl", md: "7xl", lg: "9xl" }}
         fontWeight="black"
         bgImage={`url(${spaceImage})`}
         bgRepeat="no-repeat"

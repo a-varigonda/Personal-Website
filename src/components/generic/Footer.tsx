@@ -106,7 +106,7 @@ function Footer() {
       </Flex>
 
       <Text fontSize="xs" color={textColor} letterSpacing="widest">
-        © 2026 ANKITA VARIGONDA • CARNEGIE MELLON UNIVERSITY
+        © 2026 ANKITA VARIGONDA
       </Text>
     </Flex>
   );
