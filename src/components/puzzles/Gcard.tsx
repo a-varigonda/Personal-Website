@@ -1,4 +1,4 @@
-import { AspectRatio, Box, Card, Heading, Image } from "@chakra-ui/react";
+import { AspectRatio, Box, Card, Image } from "@chakra-ui/react";
 import type { Gallery } from "./Gallery";
 
 interface Props {
