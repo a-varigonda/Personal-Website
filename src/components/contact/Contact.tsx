@@ -1,5 +1,6 @@
 import { Button, Center, useClipboard } from "@chakra-ui/react";
 import { LuCheck, LuCopy } from "react-icons/lu";
+import ContactForm from "./ContactForm";
 
 function Contact() {
   const { copied, copy } = useClipboard({ value: "avarigon@andrew.cmu.edu" });
@@ -25,6 +26,13 @@ function Contact() {
           {copied ? "Copied to Clipboard!" : "avarigon@andrew.cmu.edu"}
         </Button>
       </Center>
+      <Center m={5} fontSize="xl">
+        - OR -
+      </Center>
+      <Center m={5} fontSize="xl">
+        Send a message!
+      </Center>
+      <ContactForm />
     </>
   );
 }
