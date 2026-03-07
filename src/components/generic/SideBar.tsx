@@ -11,11 +11,16 @@ interface Props {
 }
 
 function SideBar({ pages, currentPage, onClick }: Props) {
-  const [navE, setNavE] = useState(true);
+  const [navE, setNavE] = useState(false);
 
   const glassBg = useColorModeValue("whiteAlpha.600", "blackAlpha.300");
   const borderColor = useColorModeValue("blackAlpha.200", "whiteAlpha.200");
   const iconColor = useColorModeValue("gray.800", "white");
+
+  const handleItemClick = (page: string) => {
+    onClick(page);
+    setNavE(false);
+  };
 
   return (
     <>
@@ -43,7 +48,7 @@ function SideBar({ pages, currentPage, onClick }: Props) {
                   key={item}
                   text={item}
                   active={item == currentPage}
-                  onClick={onClick}
+                  onClick={handleItemClick}
                 />
               ))}
             </Flex>
