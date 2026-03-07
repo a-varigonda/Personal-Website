@@ -5,6 +5,10 @@ interface Props {
   g: Gallery;
 }
 
+function getImageUrl(id: number) {
+  return new URL(`/src/assets/gallery/${id}.webp`, import.meta.url).href;
+}
+
 function Gcard({ g }: Props) {
   return (
     <>
@@ -20,7 +24,7 @@ function Gcard({ g }: Props) {
           transition="all 0.3s"
         >
           <AspectRatio ratio={16 / 9}>
-            <Image src={g.image} objectFit="cover" />
+            <Image src={getImageUrl(g.id)} objectFit="cover" />
           </AspectRatio>
           <Card.Body>
             <h1>{g.pieces} pieces</h1>
