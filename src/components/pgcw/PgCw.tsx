@@ -33,7 +33,7 @@ function PgCW() {
         {courses.map((item) => (
           <Item
             key={item.Number}
-            title={`${item.Number} - ${item.Course} ${item.Current == "TRUE" ? "(In Progress)" : `(${item.Semester})`}`}
+            title={`${item.Number} - ${item.Course} ${item.Current == true ? "(In Progress)" : `(${item.Semester})`}`}
           />
         ))}
       </Stack>

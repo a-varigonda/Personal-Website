@@ -1,92 +1,140 @@
 [
   {
+    "Course": "Stars, Galaxies and the Universe",
+    "Number": "33-224",
+    "Semester": "Fall 2026",
+    "Current": true
+  },
+  {
+    "Course": "Charpie Leadership Institute",
+    "Number": "99-120",
+    "Semester": "Fall 2026",
+    "Current": true
+  },
+  {
+    "Course": "Principles of Functional Programming",
+    "Number": "15-150",
+    "Semester": "Fall 2026",
+    "Current": true
+  },
+  {
+    "Course": "Undergraduate Colloquium",
+    "Number": "21-201",
+    "Semester": "Fall 2026",
+    "Current": true
+  },
+  {
+    "Course": "Introduction to Ordinary Differential Equations",
+    "Number": "21-261",
+    "Semester": "Fall 2026",
+    "Current": true
+  },
+  {
+    "Course": "Introduction to Linguistics",
+    "Number": "80-180",
+    "Semester": "Fall 2026",
+    "Current": true
+  },
+  {
+    "Course": "Teaching Techniques for Computer Science",
+    "Number": "07-070",
+    "Semester": "Fall 2026",
+    "Current": true
+  },
+  {
+    "Course": "Probability and Martingales",
+    "Number": "21-425",
+    "Semester": "Fall 2026",
+    "Current": true
+  },
+  {
     "Course": "Intro to Computational Biology",
     "Number": "02-250",
     "Semester": "Spring 2026",
-    "Current": "TRUE"
+    "Current": false
   },
   {
     "Course": "Principles of Imperative Computation",
     "Number": "15-122",
     "Semester": "Spring 2026",
-    "Current": "TRUE"
+    "Current": false
   },
   {
     "Course": "Discrete Math",
     "Number": "21-228",
     "Semester": "Spring 2026",
-    "Current": "TRUE"
+    "Current": false
   },
   {
     "Course": "Multidimensional Calculus",
     "Number": "21-268",
     "Semester": "Spring 2026",
-    "Current": "TRUE"
+    "Current": false
   },
   {
     "Course": "Cultures of Latin America",
     "Number": "82-343",
     "Semester": "Spring 2026",
-    "Current": "TRUE"
+    "Current": false
   },
   {
     "Course": "Modern Biology",
     "Number": "03-121",
     "Semester": "Fall 2025",
-    "Current": "FALSE"
+    "Current": false
   },
   {
     "Course": "Mathematical Concepts and Proofs",
     "Number": "21-128",
     "Semester": "Fall 2025",
-    "Current": "FALSE"
+    "Current": false
   },
   {
     "Course": "Matrices and Linear Transformations",
     "Number": "21-241",
     "Semester": "Fall 2025",
-    "Current": "FALSE"
+    "Current": false
   },
   {
     "Course": "Putnam Seminar",
     "Number": "21-295",
     "Semester": "Fall 2025",
-    "Current": "FALSE"
+    "Current": false
   },
   {
     "Course": "Eureka",
     "Number": "38-101",
     "Semester": "Fall 2025",
-    "Current": "FALSE"
+    "Current": false
   },
   {
     "Course": "Engage in Service",
     "Number": "38-110",
     "Semester": "Fall 2025",
-    "Current": "FALSE"
+    "Current": false
   },
   {
     "Course": "Writing About Data",
     "Number": "76-107",
     "Semester": "Fall 2025",
-    "Current": "FALSE"
+    "Current": false
   },
   {
     "Course": "Writing About Public Problems",
     "Number": "76-108",
     "Semester": "Fall 2025",
-    "Current": "FALSE"
+    "Current": false
   },
   {
     "Course": "Stuco: Fun with Robots",
     "Number": "98-012",
     "Semester": "Fall 2025",
-    "Current": "FALSE"
+    "Current": false
   },
   {
     "Course": "Core@CMU",
     "Number": "99-101",
     "Semester": "Fall 2025",
-    "Current": "FALSE"
+    "Current": false
   }
 ]
