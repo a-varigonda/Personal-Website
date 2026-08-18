@@ -26,13 +26,13 @@ function Contact() {
           {copied ? "Copied to Clipboard!" : "avarigon@andrew.cmu.edu"}
         </Button>
       </Center>
-      <Center m={5} fontSize="xl">
+      {/* <Center m={5} fontSize="xl">
         - OR -
       </Center>
       <Center m={5} fontSize="xl">
         Send a message!
       </Center>
-      <ContactForm />
+      <ContactForm /> */}
     </>
   );
 }

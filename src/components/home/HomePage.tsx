@@ -27,7 +27,7 @@ function HomePage() {
         <Tags tagList={interests} />
       </Center>
       <Center mt={10} textAlign="center" px={4}>
-        I'm a freshman at Carnegie Mellon University studying Mathematical
+        I'm a sophomore at Carnegie Mellon University studying Mathematical
         Sciences!
       </Center>
     </>
